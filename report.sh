@@ -1,8 +1,9 @@
-#!/bin/bash
-BASEDIR=`dirname $0`
-PROJECT_PATH=`cd $BASEDIR; pwd`
+#!/usr/bin/env bash
+set -euo pipefail
 
-cd $PROJECT_PATH
+PROJECT_DIR="$(cd "$(dirname "$0")" && pwd)"
+cd "$PROJECT_DIR"
+
+# shellcheck disable=SC1091
 source venv/bin/activate
-python make_graph.py
-deactivate
+python3 report.py

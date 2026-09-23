@@ -1,6 +1,6 @@
-ping3
-pyyaml
-pymysql
-pandas
-matplotlib
-pytelegrambotapi
+ping3>=4.0.0
+PyYAML>=6.0
+PyMySQL>=1.1.0
+pandas>=2.0.0
+matplotlib>=3.8.0
+pyTelegramBotAPI>=4.14.0

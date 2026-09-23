@@ -6,7 +6,7 @@ config:
   host: 192.168.1.2
   port: 3306
   user: user
-  password: password 
+  password: password
   db: monitoring
   telegram_token: 0000000000:AAAAAAAAAAAAAAAAAAAA
   chat_id: -00000000
